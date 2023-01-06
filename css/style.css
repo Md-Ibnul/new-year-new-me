@@ -5,6 +5,12 @@
 a{
     text-decoration: none;
 }
+ol,ul{
+    list-style-type: none;
+}
+ul {
+    list-style-image: url(../images/icons/check-symbol.png);
+  }
 /* 
     font-family: 'Work Sans', sans-serif;
 */
@@ -47,4 +53,45 @@ padding: 20px 25px;
 background: #F15B22;
 border-radius: 5px;
 border: 0;
+}
+
+/* failures section style */
+.failures{
+    width: 1140px;
+    margin: auto;
+    margin-top: 130px;
+}
+.failures-content{
+    display: flex;
+    gap: 90px;
+}
+.failures-img img{
+    width: 470px;
+}
+.failures-details{
+    margin-top: 200px;
+}
+.section-title{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-right: 200px;
+    margin-bottom: 25px;
+}
+.section-description{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+margin-bottom: 10px;
+}
+.failures-list{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+margin-left: 20px;
 }
