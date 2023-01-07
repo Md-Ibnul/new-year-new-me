@@ -111,6 +111,41 @@ ul {
   font-size: 20px;
   color: #737272;
 }
+/* promises section style */
+.promises {
+  display: flex;
+  justify-content: space-around;
+}
+.promises-img img {
+  width: 520px;
+  margin-top: -50px;
+}
+.promises-item {
+  width: 200px;
+  height: 140px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  border-radius: 8px;
+  margin-right: 40px;
+  text-transform: capitalize;
+}
+.promises-item:hover {
+  box-shadow: 5px 5px 10px #444343;
+}
+.promises-items {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+.promises-item img {
+  margin-top: 20px;
+}
+.promises-title {
+  font-weight: 400;
+  color: #151414;
+  margin-top: 5px;
+  padding: 0 30px;
+}
 /* mindset section style */
 .mindset {
   width: 1000px;
